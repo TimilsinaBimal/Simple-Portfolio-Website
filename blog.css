@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playball');
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls');
+@import url('https://fonts.googleapis.com/css?family=Itim|Roboto');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background: linear-gradient(left, #0072ff, #00c6ff);
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    background: -moz-linear-gradient(left, #0072ff, #00c6ff);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    z-index: 10000;
+    box-sizing: border-box;
+    transition: .5s;
+    background-color: #fff;
+    box-shadow: 1px 2px 10px #888;
+    font-family: "Poppins", Helvetica;
+}
+
+.navbar-text {
+    font-size: 1.5em;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    text-align: left !important;
+}
+
+.nav-link {
+    color: #000 !important;
+}
+
+.nav-link:hover {
+    color: #2DB1FF !important;
+    transition: .5s !important;
+}
+
+nav ul li a {
+    text-align: left !important;
+    font-size: 1.1em;
+    padding: 15px 30px !important;
+}
+
+.home-inner {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("images/header_banner.jpg") center no-repeat;
+    height: 60vh;
+    background-size: cover;
+}
+
+.container {
+    width: 60%;
+    border-radius: .7rem;
+    margin-top: -130px;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    box-shadow: 0em 0em 2em #555;
+    text-align: center;
+}
+
+.container h1 {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: 2rem;
+    padding: 3% 2% 0% 1%;
+    padding-left: 10%;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #444;
+}
+
+.featured-image {
+    width: 80%;
+    height: 30rem;
+    margin-bottom: 1rem;
+    border-radius: .4em;
+}
+
+.content p {
+    color: #666;
+    font-family: 'Itim', cursive;
+    padding-left: 10%;
+    text-align: left;
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+
+
+/*==================================================
+                SOCIAL-ICON
+====================================================*/
+.sharer {
+    margin: 5% 10%;
+    text-align: left;
+
+}
+
+.sharer h4 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.list-social-icons a {
+    color: #2B2B52;
+    transition: .5s;
+}
+
+.list-social-icons a:hover {
+    color: #00CCCD;
+    transition: .5s;
+}
+
+.list-social-icons a .fa-lg {
+    font-size: 1.75rem;
+}
+
+.list-icons {
+    font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+    color: #2196f3;
+}
+
+/* RECENT POSTS */
+
+.related {
+    text-align: left;
+    padding-left: 0.9em;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.row {
+    font-family: Poppins;
+    text-align: left;
+}
+
+.column {
+    padding: 0%;
+
+}
+
+.row .column img {
+    width: 100%;
+    border-radius: .3rem;
+    box-shadow: 0rem 0rem 1.3rem #666;
+    padding: 0px;
+    margin: 2rem 0rem;
+}
+
+.row .contents {
+    margin: 2rem 0rem;
+}
+
+.row .content {
+    color: #333;
+}
+
+.author {
+    color: #777;
+}
+
+.row .title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 2% 2% 2% 0%;
+}
+
+/* BUTTONS */
+
+button {
+    text-decoration: none;
+    border: none !important;
+    border-radius: .2rem !important;
+    background: #ec008c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc6767, #ec008c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 700;
+    transition: all ease 0.5s !important;
+    padding: .8rem;
+    color: #fff !important;
+    box-shadow: 0rem 0rem .5rem #aaa;
+
+}
+
+button:hover {
+
+    box-shadow: .4rem .4rem 1.2rem #aaa;
+    transition: all ease 0.5s !important;
+}
+
+
+/* FOOTER */
+
+.return-to-top {
+    height: 60px;
+    width: 60px;
+    background: #019AC4;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: -45px;
+    display: flex;
+    justify-content: center;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+}
+
+.return-to-top i {
+    color: #fff;
+    margin: 0;
+    left: 0px;
+    top: 0px;
+    padding-top: 10px;
+    position: relative;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.return-to-top:hover i {
+    color: #fff;
+    top: -6px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.footer {
+    background: #019AC4;
+    width: 100%;
+    height: 5.4em;
+    font-family: Montserrat;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.footer p {
+    padding-top: 20px;
+}
+
+.footer .em {
+    font-size: 0.7em;
+}
+
+.footer a {
+    font-family: 'Playball', cursive;
+    letter-spacing: .2em;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.footer a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: .5s;
+}
